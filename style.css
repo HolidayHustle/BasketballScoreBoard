@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Pixel Point";
+  src: url(./fonts/CursedTimerUlil-Aznm.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Pixel Point", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #001021;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f1e9da;
+}
+.container {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 90%;
+  gap: 50px;
+  background-color: #002c5c;
+  border-radius: 10px;
+  border: 3px solid #00346b;
+  text-align: center;
+}
+.team-name {
+  font-family: "Poppins", sans-serif;
+  border-bottom: 2px solid #f94f6d;
+}
+header {
+  flex-basis: 100%;
+}
+#reset {
+  flex: 1 0 100%;
+  text-align: center;
+}
+.scores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  height: 12rem;
+  background-color: #001021;
+  border-radius: 5px;
+  font-size: 5rem;
+  color: #f94f6d;
+  margin-bottom: 20px;
+}
+.content-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin: 0 40px 0 40px;
+}
+.btn {
+  font-family: "Pixel Point", sans-serif;
+  background-color: #002c5c;
+  padding: 10px 10px;
+  border: 2px solid #fff;
+  color: inherit;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #00346b;
+  transition: 0.15s;
+}
+#reset-btn {
+  font-family: "Pixel Point", sans-serif;
+  background-color: #002c5c;
+  padding: 15px 20px;
+  border: 2px solid #fff;
+  color: inherit;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#reset-btn:hover {
+  background-color: #00346b;
+  transition: 0.15s;
+}
