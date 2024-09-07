@@ -34,6 +34,7 @@ body {
 .team-name {
   font-family: "Poppins", sans-serif;
   border-bottom: 2px solid #f94f6d;
+  text-transform: uppercase;
 }
 header {
   flex-basis: 100%;
